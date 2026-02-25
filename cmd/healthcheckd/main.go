@@ -121,8 +121,8 @@ func formatDuration(d time.Duration) string {
 }
 
 func generateGrafanaConfig() {
-	fmt.Println(color.YellowString("\n=== GRAFANA DASHBOARD CONFIG ==="))
-	fmt.Println(`
+	fmt.Print(color.YellowString("\n=== GRAFANA DASHBOARD CONFIG ==="))
+	fmt.Print(`
 {
   "dashboard": {
     "title": "Service Health Dashboard",
